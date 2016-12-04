@@ -1,0 +1,13 @@
+indexes:
+
+- kind: Comments
+  ancestor: yes
+  properties:
+  - name: Date
+    direction: desc
+
+- kind: Contacts
+  ancestor: yes
+  properties:
+  - name: Date
+    direction: desc
