@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=ce037d4075766aba157b66557f50cab3)
- * Config saved to config.json and https://gist.github.com/ce037d4075766aba157b66557f50cab3
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=d1dc7c5296da774c179d2f0166962f21)
+ * Config saved to config.json and https://gist.github.com/d1dc7c5296da774c179d2f0166962f21
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -4961,18 +4961,18 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
   color: inherit;
   background-color: transparent;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: #6e1111;
+  color: #420a0a;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 7.5px;
   font-size: 21px;
   font-weight: 200;
 }
@@ -4990,13 +4990,13 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -6750,11 +6750,6 @@ button.close {
   }
 }
 @media print {
-  .hidden-print {
-    display: none !important;
-  }
-}
- print {
   .hidden-print {
     display: none !important;
   }

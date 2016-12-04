@@ -106,6 +106,16 @@ var commentTemplate = template.Must(template.New("book").Parse(`
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="favicon1.png" sizes="16x16" type="image/png">
+       <!-- Google Analytics -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-88295925-1', 'auto');  // Replace with your property ID.
+        ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
     </head>
     <body id="wrapper">
         <div class="container">
@@ -146,10 +156,10 @@ var commentTemplate = template.Must(template.New("book").Parse(`
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Search Salemink</h4>
+                            <h4 class="modal-title">Search BonemasterBBQ</h4>
                         </div>
                         <div class="modal-body">
-                            <script>
+                            <script>                                
                                 (function() {
                                     var cx = '006257532291329875067:0tnlhh1agjw';
                                     var gcse = document.createElement('script');
@@ -242,6 +252,16 @@ var contactTemplate = template.Must(template.New("contact").Parse(`
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="favicon1.png" sizes="16x16" type="image/png">
+        <!-- Google Analytics -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-88295925-1', 'auto');  // Replace with your property ID.
+        ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
     </head>
     <body id="wrapper">
         <div class="container">
@@ -283,10 +303,10 @@ var contactTemplate = template.Must(template.New("contact").Parse(`
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Search Salemink</h4>
+                                <h4 class="modal-title">Search BonemasterBBQ</h4>
                             </div>
                             <div class="modal-body">
-                                <script>
+                                <script>                                
                                     (function() {
                                         var cx = '006257532291329875067:0tnlhh1agjw';
                                         var gcse = document.createElement('script');
