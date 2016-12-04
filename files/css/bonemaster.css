@@ -1,0 +1,53 @@
+body { 	
+    font-family: Arial, helvetica, sans-serif;
+    background-image: url(../images/background_ribs_tall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+#wrapper {
+    width: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#banner { height: 160px;
+}	
+#maincontent{  
+    background-color: #000000;    
+    padding: 20px;
+    align-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#leftcolumn { float: left;
+    padding: 8px;
+}
+.floatleft {
+    float: left;
+    z-index: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.floatright {
+    float: right;
+    z-index: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#floatright { margin:10px;
+             float:right;
+}
+#floatleft { margin:10px;
+             float: left;
+}
+
