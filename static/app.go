@@ -209,20 +209,10 @@ var commentTemplate = template.Must(template.New("book").Parse(`
                     {{end}}
                 </div>
                 <!-- //End Database Input -->
-                <form action="/sign" method="post" class="form-horizontal">
-                    <div class="form-group">
-                        <label for="givenname">First and Last Name:</label>
-                        <input type="text" class="form-control"  placeholder="First and Last Name" name="givenname"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="text" class="form-control" placeholder="Email" name="email" />
-                    </div>          
-                    <label for="comment">Comment:</label>
-                    <textarea class="form-control" placeholder="Comment" name="commentFormcontent" rows="5"></textarea>
-                    <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
-                </form>                
-                <hr>
+                <!-- Start Form -->
+								<h4>Comment form is temporarily disabled, due to children, with no life, abusing the the site.</h4>
+									
+								<hr>
                 <!-- Start Footer -->   
                 <div id="footer">
                     <h4>&copy; Copyright 2012 <a href="mailto:ron@bonemasterbbq.com"><u>ron@bonemasterbbq.com</u>.</a>  Designed by Jason Bauer and Brett Salemink.</h4>
@@ -346,20 +336,10 @@ var contactTemplate = template.Must(template.New("contact").Parse(`
                     <h1 class="text-center">Contact</h1>
                 </div>
                 <hr>          
-                <form action="/postContactForm" method="post" class="form-horizontal">
-                    <div class="form-group">
-                        <label for="givenname">First and Last Name:</label>
-                        <input type="text" class="form-control"  placeholder="First and Last Name" name="givenname"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="text" class="form-control" placeholder="Email" name="email" />
-                    </div>              
-                    <label for="comment">Comment/Orders:</label>
-                    <textarea class="form-control" placeholder="Comments/Orders" name="contactFormcontent" rows="30"></textarea>
-                    <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
-                </form>        
-                <hr>
+                <!-- Start Form -->
+								<h4>Contact disabled due to children, with no life, playing.</h4>
+								<!-- End Form -->
+								<hr>
                 <!-- Start Footer -->   
                 <div id="footer">
                     <h4>&copy; Copyright 2012 <a href="mailto:ron@bonemasterbbq.com"><u>ron@bonemasterbbq.com</u>.</a>  Designed by Jason Bauer and Brett Salemink.</h4>
